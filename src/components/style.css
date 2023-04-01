@@ -1,0 +1,46 @@
+.about {
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 3rem;
+  }
+  
+  .about .column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .about .column .image {
+    flex: 1 1 40rem;
+  }
+  
+  .about .column .image img {
+    width: 100%;
+  }
+  
+  .about .column .content {
+    flex: 1 1 40rem;
+  }
+  
+  .about .column .content h3 {
+    font-size: 2rem;
+    color: #666;
+  }
+  
+  .about .column .content p {
+    font-size: 1rem;
+    color: #666;
+    padding: 1rem 0;
+  }
+  
+  .about .column .content .buttons a:last-child {
+    margin-left: 2rem;
+  }
+  .about {
+    background-position: right;
+  }
+  .about .column .content .buttons a {
+    width: 100%;
+    text-align: center;
+  }
